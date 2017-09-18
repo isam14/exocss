@@ -1,1 +1,34 @@
-.master{}
+.master {
+    display: flex;
+    flex-wrap: wrap;    
+}
+.master h1{
+        width:100%;
+    }
+.master div{
+    max-width: 47%;
+    border: 1px solid #848A82;
+    background-color: #98B98B;
+    padding: 10px;
+    margin: 8px;    
+}
+.master h2{
+    margin-top: 5%;
+}
+.master img{
+    width:45%;
+    float: left;
+}
+.master h3{
+    text-transform: uppercase;
+    color: white;
+    padding-left: 45%;
+    margin-left: 10px;
+}
+.master p{
+    padding-left:45%;
+    color: #445A61;
+    margin-left: 10px;
+    
+    
+}
